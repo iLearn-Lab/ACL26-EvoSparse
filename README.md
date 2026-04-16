@@ -8,7 +8,7 @@
 
 <sup>1</sup> `Harbin Institute of Technology (Shenzhen)`  
 <sup>2</sup> `Great Bay University`  
-\* Co-corresponding author
+\* Co-corresponding Authors
 
 ## Links
 - **Code Repository**: [`GitHub`](https://github.com/iLearn-Lab/ACL26-EvoSparse)
