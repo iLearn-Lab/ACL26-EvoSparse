@@ -31,11 +31,12 @@
 
 ## Method / Framework
 
-```markdown
-![Framework](./assets/framework.png)
-```
-
+<div align="center">
+<img src="assets/framework.png">
+  
 **Figure 1.** Overall framework of `EvoSparse`.
+</div>
+
 
 ---
 
