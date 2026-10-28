@@ -19,10 +19,10 @@ ACL26-EvoSparse/
 ├── experiments/ruler/         # RULER generation, inference, and evaluation
 ├── experiments/longbench/     # LongBench inference and evaluation
 ├── figures/                   # plotting scripts and generated figures
-└── results/                   # local experiment outputs (ignored by Git)
+└── results/                   # local experiment outputs
 ```
 
-All experiments use the single implementation in `src/evosparse/attention.py`; no experiment-specific copy of EvoSparse is maintained.
+All experiments use the single implementation in `src/evosparse/attention.py`
 
 ## Environment
 
