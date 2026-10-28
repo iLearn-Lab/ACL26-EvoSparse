@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+build/
+dist/
+*.egg-info/
+
+# Models, datasets, predictions, and experiment logs
+checkpoints/
+/dataset/
+data.zip
+/pred/
+/pred_e/
+results/
+outputs/
+*.log
+nohup.out
+
+# Benchmark outputs (keep benchmark source directories tracked)
+experiments/longbench/pred/
+experiments/longbench/pred_e/
+experiments/ruler/data/generated/
+experiments/ruler/predictions/
+experiments/ruler/data/synthetic/json/hotpotqa.json
+experiments/ruler/data/synthetic/json/squad.json

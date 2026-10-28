@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+title: "Evolving Sparsity: Leveraging Token Importance Dynamics for Efficient LLM Decoding with Sparse Attention"
+message: "If you use this code, please cite the ACL 2026 paper."
+type: software
+authors:
+  - family-names: Han
+    given-names: Ruizi
+  - family-names: Zhang
+    given-names: Miao
+  - family-names: Qiao
+    given-names: Ziyue
+  - family-names: Nie
+    given-names: Liqiang
+url: "https://github.com/iLearn-Lab/ACL26-EvoSparse"
+date-released: 2026-07-01
+preferred-citation:
+  type: conference-paper
+  title: "Evolving Sparsity: Leveraging Token Importance Dynamics for Efficient LLM Decoding with Sparse Attention"
+  authors:
+    - family-names: Han
+      given-names: Ruizi
+    - family-names: Zhang
+      given-names: Miao
+    - family-names: Qiao
+      given-names: Ziyue
+    - family-names: Nie
+      given-names: Liqiang
+  collection-title: "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)"
+  year: 2026
+  start: 11554
+  end: 11566
+  doi: 10.18653/v1/2026.acl-long.530
