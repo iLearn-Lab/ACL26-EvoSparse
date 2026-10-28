@@ -22,11 +22,7 @@ ACL26-EvoSparse/
 └── results/                   # local experiment outputs
 ```
 
-All experiments use the single implementation in `src/evosparse/attention.py`
-
 ## Environment
-
-The released configuration mirrors the `cod-speed` environment used for our experiments:
 
 - Python 3.11.13
 - PyTorch 2.8.0 with CUDA 12.8
@@ -167,7 +163,6 @@ python eval/evaluate.py \
   --benchmark synthetic
 ```
 
-The RULER inference entry point supports the same six attention modes as LongBench.
 
 ## Citation
 
