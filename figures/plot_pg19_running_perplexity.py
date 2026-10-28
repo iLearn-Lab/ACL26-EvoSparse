@@ -11,11 +11,11 @@ from matplotlib.ticker import FuncFormatter, MaxNLocator
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_DENSE = REPO_ROOT / "results" / "pg19_dense_cod_speed" / "log.txt"
+DEFAULT_DENSE = REPO_ROOT / "results" / "pg19_dense" / "log.txt"
 DEFAULT_EVOSPARSE = (
     REPO_ROOT
     / "results"
-    / "pg19_evosparse_cod_speed_b4096_bs16_h20_g15"
+    / "pg19_evosparse_b4096_bs16_h20_g15"
     / "log.txt"
 )
 
