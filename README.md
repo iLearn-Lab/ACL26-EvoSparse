@@ -32,8 +32,8 @@ ACL26-EvoSparse/
 Create the environment and install the project with:
 
 ```bash
-conda create -n cod-speed python=3.11 -y
-conda activate cod-speed
+conda create -n evosparse python=3.11 -y
+conda activate evosparse
 
 # Install the CUDA 12.8 build used in our experiments.
 pip install torch==2.8.0 --index-url https://download.pytorch.org/whl/cu128
@@ -42,7 +42,6 @@ pip install torch==2.8.0 --index-url https://download.pytorch.org/whl/cu128
 pip install -e ".[experiments]"
 ```
 
-The sparse implementation currently targets Hugging Face Llama models, uses eager attention, and assumes batch size 1 during decoding. Model weights and benchmark datasets are downloaded from Hugging Face when they are not available locally.
 
 ## Method API
 
@@ -102,8 +101,6 @@ CUDA_VISIBLE_DEVICES=1 python experiments/pg19/evaluate.py \
 ```
 
 ## LongBench
-
-LongBench commands should be run from `experiments/longbench` because its benchmark configuration files use paths relative to that directory.
 
 ```bash
 cd experiments/longbench
